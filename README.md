@@ -10,9 +10,9 @@
 - HTML
 - Bootstrap
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://abdulhamiid.github.io/bootstrap)
+Click here - [Live Demo Link](https://abdulhamiid.github.io/bootstrap)
 
 
 ## Getting Started
