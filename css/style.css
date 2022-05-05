@@ -1,4 +1,11 @@
-body {color: #091e42;}
+body {
+  color: #091e42;
+}
+
+li {
+  list-style: none;
+}
+
 #showcase {
   background-image: url(../img/header-bg.svg);
   background-repeat: no-repeat;
