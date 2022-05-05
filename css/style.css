@@ -5,8 +5,15 @@ body {color: #091e42;}
   background-size: cover;
 }
 
-.footer {
-  background-image: url(../img/header-bg.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
+
+
+@media (max-width: 760px) {
+  .back {
+    width: 100%;
+    height: auto;
+    background-image: url("../img/contact-me-shapes.svg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+  }
 }
