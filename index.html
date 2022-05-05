@@ -71,29 +71,34 @@
   <footer class="container-fluid bg-primary text-white">
     <div class="row">
       <div class="col-md-1 col-lg-2"></div>
-      <div class="col-12 col-sm-12 col-md-10 col-lg-8">
-        <header>
-          <h2>Contact me</h2>
-        </header>
-        <p class="contact__text">
-          If you have an application you are interested in developing, a feature
-          that you need built or a project that needs coding. I’d love to help
-          with it
-        </p>
-        <div>
+      <div class="col-12 col-sm-12 col-md-10 col-lg-8 text-center">
+        <div class="w-50 py-5 text-center">
+          <header>
+            <h2 class="display-6 font-weight-bold">Contact me</h2>
+          </header>
+          <p class="contact__text w-40">
+            If you have an application you are interested in developing, a feature
+            that you need built or a project that needs coding. I’d love to help
+            with it
+          </p>
           <form action="https://formspree.io/f/mdobpebd"
-              method="post">
-            <div class="form-group">
-              <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
-            </div>
-            <div class="form-group">
-              <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
-            </div>
-            <div class="form-group">
-              <textarea class="form-control" rows="5" id="comment"></textarea>
-            </div>
-            <button type="submit" class="btn btn-light text-primary"> Get in touch</button>
-          </form>
+                method="post">
+              <div class="mb-4">
+                <input type="text" class="form-control" id="name" placeholder="Enter email" name="name" maxlength="30"
+                placeholder="Full Name"
+                required>
+              </div>
+              <div class="mb-4">
+                <input type="email" class="form-control" id="email" name="pswd" placeholder="example@gmail.com"
+                required>
+              </div>
+              <div class="mb-4">
+                <textarea class="form-control" rows="5" id="message" maxlength="500"
+                placeholder="write a message here"
+                required></textarea>
+              </div>
+              <button type="submit" class="btn btn-light text-primary"> Get in touch</button>
+            </form>
         </div>
       </div>
       <div class="col-md-1 col-lg-2"></div>

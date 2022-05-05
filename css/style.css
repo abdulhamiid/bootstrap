@@ -4,3 +4,9 @@ body {color: #091e42;}
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.footer {
+  background-image: url(../img/header-bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
