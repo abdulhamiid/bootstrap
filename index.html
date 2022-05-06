@@ -9,8 +9,8 @@
   <link rel="stylesheet" href="css/style.css">
   <title>boostrap</title>
 </head>
-<body>
-  <nav class="navbar navbar-expand-md navbar-light bg-white">
+<body data-bs-spy="scroll" data-bs-target="#navbar">
+  <nav class="navbar navbar-expand-md navbar-light bg-white fixed-top" id="navbar">
     <div class="container">
       <a class="navbar-brand text-primary fw-bold" href="#">Logo</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,20 +19,20 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+            <a class="nav-link" aria-current="page" href="#scrollspy1">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#scrollspy2">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">contact</a>
+            <a class="nav-link" href="#scrollspy3">contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-  <main id="showcase" class="p-md-5 pe-md-0">
-    <section class="container m-md-5 pt-5">
+  <main id="showcase" class="m-md-5 me-md-0">
+    <section class="container m-md-5 pt-5" id="scrollspy1">
       <div class="mx-sm-0 mx-md-5">
         <h1 class="display-6 fw-bold">Hey there,<br> Glad to see you!</h1>
         <p class="w-75">W’re software developer! We can help you build a product , feature or website Look through some of our work and experiences! If you like what you see and have a project you need coded, don’t hestiate to contact us.</p>
@@ -67,7 +67,7 @@
       </div>
     </section>
   </main>             
-  <div class="container my-5 d-grid">
+  <div class="container my-5 d-grid" id="scrollspy2">
     <div class="container-fuid d-grid gap-5">
       <div class="row">
         <div class="col-sm-5">
@@ -144,7 +144,7 @@
       </div>
   </div>
   <!-- footer -->
-  <footer class="container-fluid bg-primary text-white py-5">
+  <footer class="container-fluid bg-primary text-white py-5" id="scrollspy3">
       <div class=" container col-lg-4 col-md-6 col-sm-10 text-center">
         <div class="py-5 text-center mx-auto">
           <h2 class="fw-bold display-6">Contact us</h2>
